@@ -13,4 +13,4 @@ temperature1 = 34
 temperature2 = 34 
 # ¡= means not aqual 
 result = temperature1 != temperature2 
-print(result)
+print(result) 

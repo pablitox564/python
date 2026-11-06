@@ -43,4 +43,4 @@ elif humedad >= 50 and temperatura > 35:
 
 else:
     print("La humedad es suficiente.")
-    print("No hace falta regar por ahora.")
+    print("No hace falta regar por ahora.") 

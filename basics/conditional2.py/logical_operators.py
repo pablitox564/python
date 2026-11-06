@@ -8,15 +8,15 @@ print (f"the type of variable of 'b2' is {int(b2)}")
 condition1 = True 
 condition2 = True 
 condition3 = False 
-print(conditionl1 and condition3)
-if conditional1 and condition: 
+print(condition1 and condition3)
+if condition1 and condition3: 
     print("all conditional are satisfied")
 
 print("practice 2")
 print(condition1 or condition2)
 print(condition1 or condition3) 
 
-if condition1 or condition2 or condition3:
+if condition1 or condition2 or condition3: 
     print("one of the conditions is satisfied")
 
 conditional1 = not condition1  
@@ -26,6 +26,6 @@ condition1 = True
 if not condition1 and condition2 or condition3: 
     print("what is happeing") 
 
-print("logica operator priority: "; false or True and true or false)
-print("logica operator priority: "; false or True and false or false)
-print("logica operator priority: "; true or True and true or false)
+print("logica operator priority: ", False or True and True or False)
+print("logica operator priority: ", False or True and False or False)
+print("logica operator priority: ", True or True and True or False)
